@@ -61,6 +61,7 @@ class _ArtistCardState extends State<ArtistCard> {
                 color: Color.fromRGBO(109, 128, 166, 1),
               ),
               child: SingleChildScrollView(
+                padding: const EdgeInsets.all(8.0),
                 child: Songs(
                   widget.albums[_albumIndex].songs,
                 ),
